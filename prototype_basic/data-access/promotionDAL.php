@@ -8,7 +8,7 @@ class PromotionDAL extends Connection {
 
         $name = $promotion->getName();
         // Sql query
-        $insertRow="INSERT INTO promotion (name) VALUES ('$name')";
+        $insertRow="INSERT INTO promotion (nom) VALUES ('$name')";
                           
         // Execute query
         mysqli_query($this->Connect(), $insertRow);

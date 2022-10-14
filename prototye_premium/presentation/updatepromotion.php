@@ -28,9 +28,9 @@
         ?>
             <div class="hero">
                 <div style="display:flex;">
-                <input type="text" name="nom" value="<?php echo $row["nom"]; ?>">
+                <input type="text" name="nom" value="<?php echo $row["nom"]; ?>"  style="height: 30px; margin-top:150px;margin-left:500px;">
                 <input type="hidden" name="id_promotion" value="<?php echo $row["id_promotion"] ?>">
-                <input type="submit" value="Submit" name="update_prom"> 
+                <input type="submit" value="Submit" name="update_prom"  style="height: 30px; margin-top:150px;margin-left:20px;"> 
                 </div>
             </div>
         <?php
