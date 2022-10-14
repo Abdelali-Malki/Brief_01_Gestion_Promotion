@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+    font-family: 'Jua', sans-serif;}
+
+    .cont{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(71.24deg, rgb(218, 212, 239) 0.73%, #E8C0FF 99.44%);
+        background-size: cover;
+        background-position:center;
+        
+    
+    }
+
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #customers tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #customers tr:hover {background-color: #ddd;}
+      
+      #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #830292;
+        color: white;
+      }
+     .search {
+        background-color: white;
+        background-image: url('img/searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+      }
+      .hero{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(71.24deg, rgb(218, 212, 239) 0.73%, #E8C0FF 99.44%);
+        background-size: cover;
+        background-position:center;
+    
+      }
+
+      .form{
+
+      }
